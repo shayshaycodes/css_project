@@ -1,4 +1,4 @@
-/* General Reset */
+
 body, html {
     margin: 0;
     padding: 0;
@@ -6,13 +6,13 @@ body, html {
     box-sizing: border-box;
   }
   
-  /* Container */
+  
   .container {
     display: flex;
     height: 100vh;
   }
   
-  /* Sidebar */
+  
   .sidebar {
     background-color: #efbf04;
     color: #fff;
@@ -47,7 +47,7 @@ body, html {
     cursor: pointer;
   }
   
-  /* Main Content */
+  
   .main-content {
     flex: 1;
     display: flex;
@@ -55,7 +55,7 @@ body, html {
     padding: 20px;
   }
   
-  /* Search Bar */
+  
   .search-bar input {
     width: 100%;
     padding: 10px;
@@ -63,7 +63,7 @@ body, html {
     border-radius: 5px;
   }
   
-  /* Email List */
+  
   .email-list {
     margin: 20px 0;
     display: flex;
@@ -135,7 +135,7 @@ body, html {
     border-radius: 5px;
   }
   
-  /* Responsiveness */
+  
   @media (max-width: 768px) {
     .container {
       flex-direction: column;
